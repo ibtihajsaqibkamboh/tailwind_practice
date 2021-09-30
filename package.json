@@ -4,12 +4,14 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build": "tailwindcss -i src/styles.css -o public/output.css"
+        "build": "tailwindcss -i src/styles.css -o public/output.css -w"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@tailwindcss/forms": "^0.3.4",
+        "@tailwindcss/typography": "^0.4.1",
         "tailwindcss": "^2.2.16"
     }
 }
